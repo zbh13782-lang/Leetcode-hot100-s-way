@@ -1,6 +1,6 @@
 package hot
 
-func searchMatrix(matrix [][]int, target int) bool {
+func searchMatrix20(matrix [][]int, target int) bool {
 	m, n := len(matrix), len(matrix[0])
 	if n == 0 || m == 0 {
 		return false

@@ -12,7 +12,7 @@ type LRUCache struct {
 	keyToNode map[int]*list.Element
 }
 
-func Constructor(capacity int) LRUCache {
+func Constructor1(capacity int) LRUCache {
 	return LRUCache{
 		cachelist: list.New(),
 		capacity:  capacity,
