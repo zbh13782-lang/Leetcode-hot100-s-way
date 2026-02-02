@@ -1,3 +1,6 @@
-.md
-.png
-.obsidian
+
+.idea/
+
+.obsidian/
+
+*.png
