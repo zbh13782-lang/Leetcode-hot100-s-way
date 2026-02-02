@@ -1,5 +1,6 @@
 package hot
 
+
 //1.dp
 //时间N,空间N
 func trap1(height []int) int {
@@ -47,4 +48,5 @@ func trap(height []int) int {
 	}
 	return res
 }
+
 
